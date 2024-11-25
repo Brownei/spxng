@@ -48,7 +48,7 @@ const Nav = () => {
             <ChevronDown className='size-[15px]' />
           </button>
         </div>
-        <Link className='py-3 px-5 bg-red-600 text-white font-Akkurat font-bold'>
+        <Link className='py-3 transition-colors px-5 bg-red-600 text-white font-Akkurat font-bold hover:bg-black'>
           Contact Us
         </Link>
       </div>

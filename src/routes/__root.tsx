@@ -11,7 +11,7 @@ function RootComponent() {
   return (
     <>
       <Nav />
-      <div className='px-5 lg:px-10 mt-[1rem] lg:mt-[4.5rem]'>
+      <div className=' mt-[1rem] lg:mt-[4.5rem]'>
         <Outlet />
       </div>
     </>
