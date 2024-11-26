@@ -7,7 +7,6 @@ import {
 } from './ArrowButtons'
 import useEmblaCarousel from 'embla-carousel-react'
 import { Insights } from '../MarketInsights'
-import './carousel.css'
 import { ArrowRight } from 'lucide-react'
 
 type PropType = {

@@ -7,6 +7,8 @@ import HeadlineBanner from '../components/HeadlineBanner'
 import SpecialReports from '../components/SpecialReports'
 import { Divide } from 'lucide-react'
 import MarketInsights from '../components/MarketInsights'
+import AIInsights from '../components/AIInsights'
+import EnergyTransition from '../components/EnergyTransition'
 
 export const Route = createFileRoute('/')({
   component: HomeComponent,
@@ -26,6 +28,9 @@ function HomeComponent() {
       <MarketInsights />
       <div className='bg-gray-400 mt-[60px] border border-1 border-gray-300 mx-5 lg:mx-10' />
 
+      <AIInsights />
+
+      <EnergyTransition />
     </div>
   )
 }
