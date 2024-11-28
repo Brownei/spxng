@@ -8,7 +8,7 @@ const ClimateBanner = () => {
           <img src='https://spglobal.scene7.com/is/image/spglobalcom/Corp_1015_ClimateCenterofExcellence?$rectangle_large_2816X1638$' className='w-full h-full object-cover' />
         </div>
         <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/60 z-20' />
-        <div className='text-white p-6 absolute lg:left-10 lg:top-10 z-30 flex flex-col gap-2 lg:gap-3 max-w-[817px] justify-center lg:p-0 lg:text-start'>
+        <div className='text-white p-4 absolute lg:left-10 lg:top-10 z-30 flex flex-col gap-2 lg:gap-3 max-w-[817px] justify-center lg:p-0 lg:text-start'>
           <span className='uppercase leading-[0.894rem] tracking-[0.02em] font-bold text-[0.687rem]'>ADVANCING CLIMATE, ENVIRONMENTAL AND NATURE RESEARCH</span>
           <h1 className='text-[1.875rem] lg:text-[2.25rem] leading-[-0.02em] font-Akkurat font-black'>Climate Center of Excellence</h1>
           <p className="font-Akkurat text-[1rem]">
