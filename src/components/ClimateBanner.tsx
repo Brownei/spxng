@@ -2,7 +2,7 @@ import React from 'react'
 
 const ClimateBanner = () => {
   return (
-    <div className='bg-gray-100 border border-3 border-transparent min-h-[401px] lg:min-h-[265px] mt-[60px]'>
+    <div className='bg-gray-100 border border-3 border-transparent min-h-[410px] lg:min-h-[265px] mt-[60px]'>
       <div className='relative mx-3 my-2 min-h-[401px] lg:min-h-[265px] lg:mx-10 lg:my-5 '>
         <div className='absolute top-0 right-0 left-0 bottom-0'>
           <img src='https://spglobal.scene7.com/is/image/spglobalcom/Corp_1015_ClimateCenterofExcellence?$rectangle_large_2816X1638$' className='w-full h-full object-cover' />
