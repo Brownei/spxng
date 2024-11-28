@@ -15,7 +15,7 @@ const ClimateBanner = () => {
             The S&P Global Climate Center of Excellence sits within S&P Global Sustainable1’s Research and Methodology Team. The center is home to a group of world-class scientists and strategists dedicated to addressing the frontiers of long-term climate, environmental, and nature research and methodology development
           </p>
 
-          <button className='py-3 px-5 bg-red-600 mt-3 transition-colors text-white font-Akkurat font-bold hover:bg-black w-full lg:w-fit'>Lean More</button>
+          <button className='py-3 px-5 bg-red-600 lg:mt-3 transition-colors text-white font-Akkurat font-bold hover:bg-black w-full lg:w-fit'>Lean More</button>
         </div>
 
       </div>
