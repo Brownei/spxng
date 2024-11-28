@@ -25,8 +25,8 @@ const EnergyTransition = () => {
     },
   ]
   return (
-    <div className='grid grid-cols-3 grid-flow-row gap-[40px] items-start px-5 mt-[50px] lg:px-10 lg:flex-row'>
-      <div className='flex flex-col gap-4 min-h-[500px] w-full p-3 py-5 font-Akkurat'>
+    <div className='grid lg:grid-cols-3 lg:grid-flow-row gap-[20px] lg:gap-[40px] items-start px-5 mt-[50px] lg:px-10 '>
+      <div className='flex flex-col gap-4 h-fit lg:min-h-[500px] w-full p-3 py-5 font-Akkurat'>
         <h1 className='leading-[2.587rem] tracking-[-0.02em] font-black text-[2.25rem]'>Energy Transition</h1>
         <p className='text-[1.125rem] tracking-[-0.02em] leading-[1.675rem] font-normal'>The heightened urgency of the climate crisis has accelerated calls to action for the global energy industry to shift from fossil-based systems of energy production and consumption—including oil, natural gas, and coal—to renewable energy sources.</p>
         <button className='w-full bg-black text-[0.875rem] leading-[1.225rem] px-[1rem] py-[0.5rem] text-white font-bold'>Read more on the Energy Transition</button>

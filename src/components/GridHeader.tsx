@@ -27,10 +27,10 @@ const GridHeader = () => {
                 <img src="https://spglobal.scene7.com/is/image/spglobalcom/Corp_0618_PrivateMarketsBanner?$responsive$" alt="capital-market" className="h-full w-full object-cover" />
                 <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/60" />
               </div>
-              <div className="absolute z-10 top-3 left-3 text-white">
-                <span>CAPITAL MARKET</span>
-                <h2 className="group-hover:underline">Private Markets</h2>
-                <p>Private markets are not growing, they are envolving, Fundamentsal shifts in business....</p>
+              <div className="absolute top-4 left-4 pr-[4rem] flex flex-col gap-3">
+                <span className=" z-20 text-white font-Akkurat font-bold text-[0.687rem] leading-[0.894rem]">CAPITAL MARKET</span>
+                <h2 className="font-Akkurat z-20 leading-[1.575rem] text-[1.375rem] font-bold text-white group-hover:underline">Private Markets</h2>
+                <p className="text-white font-Akkurat font-normal text-base leading-[1.4rem]">Private markets are not growing, they are envolving, Fundamentsal shifts in business....</p>
               </div>
 
               <div className="absolute bottom-4 left-4">
@@ -44,10 +44,10 @@ const GridHeader = () => {
                 <img src="https://spglobal.scene7.com/is/image/spglobalcom/Corp_0712_DigitalAssets?$responsive$" alt="capital-market" className="h-full w-full object-cover" />
                 <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/60" />
               </div>
-              <div className="absolute z-10 top-3 left-3 text-white">
-                <span>CAPITAL MARKET</span>
-                <h2 className="group-hover:underline">Private Markets</h2>
-                <p>Private markets are not growing, they are envolving, Fundamentsal shifts in business....</p>
+              <div className="absolute top-4 left-4 pr-[4rem] flex flex-col gap-3">
+                <span className=" z-20 text-white font-Akkurat font-bold text-[0.687rem] leading-[0.894rem]">CAPITAL MARKET</span>
+                <h2 className="font-Akkurat z-20 leading-[1.575rem] text-[1.375rem] font-bold text-white group-hover:underline">Private Markets</h2>
+                <p className="text-white font-Akkurat font-normal text-base leading-[1.4rem]">Private markets are not growing, they are envolving, Fundamentsal shifts in business....</p>
               </div>
 
               <div className="absolute bottom-4 left-4">

@@ -3,8 +3,8 @@ import React from 'react'
 
 const AIInsights = () => {
   return (
-    <div className='grid grid-cols-3 grid-flow-row gap-[40px] items-center px-5 mt-[50px] lg:px-10 lg:flex-row'>
-      <div className='flex flex-col gap-4 min-h-[500px] w-full p-5  font-Akkurat'>
+    <div className='grid lg:grid-cols-3 lg:grid-flow-row gap-[20px] lg:gap-[40px] items-center px-5 mt-[50px] lg:px-10 '>
+      <div className='flex flex-col gap-4 h-fit lg:min-h-[500px] w-full p-5  font-Akkurat'>
         <h1 className='leading-[2.587rem] tracking-[-0.02em] font-black text-[2.25rem]'>Artificial Intelligence Insights</h1>
         <p className='text-[1.125rem] tracking-[-0.02em] leading-[1.675rem] font-normal'>The artificial intelligence landscape is ever-changing. These technological advancements are equally important to economic development as other major trends like globalization, social inclusion, and climate and energy transition. SXPNG aims to provide this information in three parts: <span className='font-black'>AI Fundamentals</span>, <span className='font-black'>AI Fundamentals</span> and <span className='font-black'>AI Fundamentals and Regulation</span></p>
         <button className='w-full bg-black text-[0.875rem] leading-[1.225rem] px-[1rem] py-[0.5rem] text-white font-bold'>Explore more Artificial Intelligence Insights</button>
