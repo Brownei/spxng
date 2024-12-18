@@ -33,7 +33,7 @@ function HomeComponent() {
       <div className='bg-gray-400 mt-[60px] border border-1 border-gray-300 mx-5 lg:mx-10' />
 
       <AIInsights />
-      <ClimateBanner />
+      <ClimateBanner inInsights={true} />
       <EnergyTransition />
       <IntelligenceBanner />
       <EssentialPodcast />
