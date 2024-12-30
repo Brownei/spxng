@@ -1,3 +1,5 @@
+import { title } from "motion/react-client"
+
 export const news = [
   {
     title: "Big Picture for Sustainability in 2025: Secondary Perils and Protection Gaps",
@@ -17,3 +19,219 @@ export const news = [
   },
 ]
 
+export const navbar = {
+  "finding-product": [
+    {
+      title: "featured-products",
+      url: "",
+      portionNav: [
+        {
+          title: "SXPNG Capital IQ Pro",
+          imgUrl: "",
+        },
+        {
+          title: "Platts Connect",
+          imgUrl: "",
+        },
+        {
+          title: "SXPNG ESG Scores",
+          imgUrl: "",
+        },
+        {
+          title: "AutoCreditInsights",
+          imgUrl: "",
+        },
+        {
+          title: "Ratings360",
+          imgUrl: "",
+        },
+        {
+          title: "SPICE: The Index Source for ESG Data",
+          imgUrl: "",
+        },
+      ]
+    },
+    {
+      title: "data-&-analytics",
+      url: "/",
+    },
+    {
+      title: "research-&-insights",
+      url: "/",
+    },
+    {
+      title: "ratings-&-benchmarks",
+      url: "",
+      portionNav: [
+        {
+          title: "Overview",
+          imgUrl: "",
+        },
+        {
+          title: "Find a Rating",
+          imgUrl: ""
+        }
+      ]
+    },
+    {
+      title: "indices",
+      url: "/",
+    },
+    {
+      title: "technology-solutions",
+      url: "/",
+    },
+    {
+      title: "my-topic",
+      url: "",
+      portionNav: [
+        {
+          title: "Sustainability",
+          imgUrl: "",
+        },
+        {
+          title: "Energy Transition",
+          imgUrl: "",
+        },
+        {
+          title: "Fixed Income",
+          imgUrl: "",
+        },
+        {
+          title: "Technology & AI",
+          imgUrl: "",
+        },
+        {
+          title: "Private Markets",
+          imgUrl: "",
+        },
+        {
+          title: "Credit & Risks",
+          imgUrl: "",
+        },
+        {
+          title: "Supply Chain",
+          imgUrl: "",
+        },
+      ]
+    },
+    {
+      title: "see-all-sxpng-products-&-solutions",
+      url: "/"
+    }
+  ],
+  "research-&-insights": [
+    {
+      title: "market-insights",
+      url: "",
+      portionNav: [
+
+        {
+          title: "Sustainability",
+          imgUrl: "https://spglobal.scene7.com/is/image/spglobalcom/corp_0416_sustainability_vertical?$responsive$"
+        },
+        {
+          title: "Economy",
+          imgUrl: "https://spglobal.scene7.com/is/image/spglobalcom/Corp_0416_economyvertical?$responsive$"
+        },
+        {
+          title: "Capital Markets",
+          imgUrl: "https://spglobal.scene7.com/is/image/spglobalcom/corp_0417_capitalmarketsbannervertical?$responsive$"
+        },
+        {
+          title: "Globe Trade",
+          imgUrl: "https://spglobal.scene7.com/is/image/spglobalcom/corp_0418_globaltradevertical?$responsive$"
+        },
+        {
+          title: "Energy & Commodities",
+          imgUrl: "https://spglobal.scene7.com/is/image/spglobalcom/Corp_0416_energycommoditiesvertical?$responsive$"
+        },
+        {
+          title: "Technology & Innovation",
+          imgUrl: "https://spglobal.scene7.com/is/image/spglobalcom/corp_0417_technologybannervertical?$responsive$"
+        },
+        {
+          title: "Geopolitical Risk",
+          imgUrl: "https://spglobal.scene7.com/is/image/spglobalcom/corp_0820_geopoliticalrisk_hp2?$responsive$"
+        },
+        {
+          title: "Artificial Intelligence",
+          imgUrl: "https://spglobal.scene7.com/is/image/spglobalcom/04_16_ArtificialIntelligenceVertical?$responsive$"
+        },
+
+      ]
+    },
+    {
+      title: "special-reports",
+      url: "/",
+    },
+    {
+      title: "events",
+      url: "",
+      portionNav: [
+        {
+          title: "Featured SXPNG Events",
+          imgUrl: "",
+        },
+        {
+          title: "Webinar Replays",
+          imgUrl: "",
+        },
+        {
+          title: "CERAWeek",
+          imgUrl: "",
+        },
+      ]
+    },
+    {
+      title: "experts",
+      url: "/tee",
+    },
+    {
+      title: "podcasts",
+      url: "/"
+    }
+  ],
+  "who-we-are": [
+    {
+      title: "about-sxpng",
+      url: "",
+      portionNav: [
+        {
+          title: "Overview",
+          imgUrl: "",
+        }
+      ]
+    },
+    {
+      title: "corporate-responsibilty",
+      url: "",
+      portionNav: [
+        {
+          title: "Overview",
+          imgUrl: "",
+        }
+      ]
+    },
+    {
+      title: "diversity-equity-&-inclusion",
+      url: "",
+      portionNav: [
+        {
+          title: "Overview",
+          imgUrl: "",
+        }
+      ]
+    },
+    {
+      title: "investor-relations",
+      url: "",
+      portionNav: [
+        {
+          title: "Overview",
+          imgUrl: "",
+        }
+      ]
+    }
+  ]
+}
