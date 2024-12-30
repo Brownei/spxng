@@ -83,7 +83,7 @@ const Nav = () => {
             {showHamburgerMenu ? <X size={30} /> : <AlignJustify size={30} />}
           </div>
         </div>
-        <div className='hidden drop-shadow-md bg-gray-100 justify-between items-center px-5'>
+        <div className='hidden drop-shadow-md bg-gray-100 justify-between items-center px-2 lg:px-5'>
           <div className='flex gap-4 items-center font-Akkurat font-black'>
             <button className='flex hover:bg-gray-300 gap-1 items-center px-5 py-6' onClick={() => selectNav("finding-products")}>
               <span>Find Products</span>
@@ -111,7 +111,7 @@ const Nav = () => {
           animate={{ x: 0 }}
           exit={{ x: "100%" }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className='bg-gray-100 fixed py-3 px-5 overflow-auto h-screen z-50 w-full'>
+          className='bg-gray-100 fixed top-[70px] py-3 px-2 lg:px-5 overflow-auto h-screen z-50 w-full'>
 
           {navIndex === 0 ? (
             <motion.div
@@ -120,7 +120,7 @@ const Nav = () => {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ duration: 1, ease: "easeInOut" }}
-              className='font-Akkurat flex flex-col gap-10'>
+              className='font-Akkurat mx-2 lg:mx-5 flex flex-col gap-10'>
               <div onClick={() => selectNavMobile("finding-product")} className='flex justify-between items-center cursor-pointer'>
                 <span className='text-[1.1rem]'>Finding Products</span>
                 <ChevronRight />
@@ -136,7 +136,7 @@ const Nav = () => {
             </motion.div>
           ) : navIndex > 0 && navIndex === 1 && selectedNavMobile !== "" ? (
             <div className='flex flex-col gap-10 relative'>
-              <div className='font-Akkurat sticky -top-3 left-0 right-0 bg-gray-100 z-40 p-3 m-0 text-[1rem] flex gap-1 items-center'>
+              <div className='font-Akkurat sticky -top-3 left-0 right-0 bg-gray-100 z-40 py-3 lg:py-0 lg:p-3 m-0 text-[1rem] flex gap-1 items-center'>
                 <ChevronLeft size={20} />
                 <span onClick={goBack} className='font-bold cursor-pointer'>Back</span>
                 <span>/</span>
@@ -159,7 +159,7 @@ const Nav = () => {
             </div>
           ) : navIndex > 1 && navIndex === 2 && selectedPortionNav !== "" ? (
             <div className='flex flex-col gap-10 '>
-              <div className='font-Akkurat sticky -top-3 left-0 right-0 bg-gray-100 z-40 p-3 m-0 text-[1rem] flex gap-1 items-center'>
+              <div className='font-Akkurat sticky -top-3 left-0 right-0 bg-gray-100 z-40 py-3 lg:py-0 lg:p-3 m-0 text-[1rem] flex gap-1 items-center'>
                 <ChevronLeft size={20} />
                 <span onClick={goBack} className='font-bold cursor-pointer'>Back</span>
                 <span>/</span>

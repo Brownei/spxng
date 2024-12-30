@@ -16,7 +16,7 @@ export function AnimationWrapper({ children, classNames }: { children: React.Rea
       animate={{ x: 0 }}
       exit={{ x: "100%" }}
       transition={{ duration: 1, ease: "easeInOut" }}
-      className={`mx-5 ${classNames}`}
+      className={`mx-2 lg:mx-5 ${classNames}`}
     >
       {children}
     </motion.div>
