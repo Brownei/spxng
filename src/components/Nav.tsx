@@ -57,14 +57,14 @@ const Nav = () => {
 
   return (
     <AnimatePresence>
-      <nav className={`${showHamburgerMenu ? 'fixed overflow-hidden' : 'sticky'} z-50 top-0 left-0 right-0 h-[90px] w-full  border-black  drop-shadow-lg shadow-black`}>
+      <nav className={`${showHamburgerMenu ? 'fixed overflow-hidden' : 'sticky'} z-50 top-0 left-0 right-0 h-fit w-full   drop-shadow-lg shadow-black`}>
         <div className='flex bg-white py-3 px-5 justify-between items-center'>
-          <div className='flex gap-4 items-center'>
+          <Link to='/' className='flex gap-4 items-center'>
             <div className='relative font-Akkurat font-bold py-1 text-[2rem]'>
               <div className='border-2 border-black w-full absolute top-0 left-0 right-0' />
               <span className='text-red-600'>SPXNG</span>
             </div>
-          </div>
+          </Link>
           <div className='hidden font-Akkurat font-light text-[0.875rem] gap-10'>
             <button className='flex gap-2 items-center'>
               <Search className='size-[14px]' />
@@ -167,7 +167,7 @@ const Nav = () => {
               </div>
               <div
                 className='flex flex-col gap-10'>
-                <PortionNav portion={selectedPortionNav} />
+                <PortionNav setSHowHarmburgerMenu={setSHowHarmburgerMenu} portion={selectedPortionNav} />
               </div>
             </div>
           ) : (

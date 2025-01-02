@@ -21,7 +21,7 @@ export const Route = createFileRoute('/')({
 
 function HomeComponent() {
   return (
-    <div className="mb-[500px] h-[1000px]">
+    <div className="mb-[500px] h-[1000px] mt-[1.2rem] lg:mt-[4.5rem]">
 
       <GridHeader />
       <ExploreRiskBanner />

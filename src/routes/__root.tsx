@@ -11,9 +11,7 @@ function RootComponent() {
   return (
     <>
       <Nav />
-      <div className=' mt-[1rem] lg:mt-[4.5rem]'>
-        <Outlet />
-      </div>
+      <Outlet />
     </>
   )
 }
